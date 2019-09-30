@@ -15,21 +15,42 @@ def first_challenge
   
       }
       :heros_friend =>[
-        {  :name => "Mercutio"
-           ::age => "18"
-           
+        {  :name => "Benvolio"
+           :age => "17"
+           :attitude => "Worried"
           
         }.
-        {
+        {   :name => "Mercuti"
+            :age => "18"
+            :attitude => "hot-headed"
           
         }
       ]
     },
     :capulets =>{
-      :patriarch =>{}
-      :matrirch =>{}
-      :heorine =>{}
-      :heroines_friens => []
+      :patriarch =>{
+        :name => "Lord Capulet"
+        :age => "50"
+      }
+      :matrirch =>{
+        :name => "Lady Capulet"
+        :age => "51"
+      }
+      :heorine =>{
+        :name =>"Juliet"
+        :age =>"15"
+      }
+      :heroines_friens => [
+      { :name => "Steven"
+        :age => "30"
+        :attitude => "confused"
+      },{
+        :name =>"Nurse"
+        :age => "44"
+        :attitude =>"hot-headed"
+      }    
+        
+    ]
       
     }
    }
