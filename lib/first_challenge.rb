@@ -5,7 +5,7 @@ def first_challenge
         :name =>"Lord Montague",
         :age =>"53"
       }
-      :matrirch =>{
+      :matriarch =>{
         :name =>"Lady Montague",
         :age =>"54"
       }
@@ -32,7 +32,7 @@ def first_challenge
         :name => "Lord Capulet",
         :age => "50"
       }
-      :matrirch =>{
+      :matriarch =>{
         :name => "Lady Capulet",
         :age => "51"
       }
